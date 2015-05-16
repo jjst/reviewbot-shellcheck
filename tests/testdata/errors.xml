@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<checkstyle version='4.3'>
+<file name='test.sh' >
+<error line='2' column='9' severity='info' message='Double quote to prevent globbing and word splitting.' source='ShellCheck.SC2086' />
+<error line='17' column='39' severity='warning' message='The double quotes around this do nothing. Remove or escape them.' source='ShellCheck.SC2140' />
+</file>
+</checkstyle>
