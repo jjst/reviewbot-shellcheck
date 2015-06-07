@@ -93,7 +93,9 @@ class ShellCheckTool(Tool):
         logging.info('ShellCheck detected %s violations in file %s' %
                      (len(result.violations), reviewed_file.dest_file))
         self.post_comments(
-            result.violations, reviewed_file, use_markdown=self.settings['markdown'])
+            result.violations,
+            reviewed_file,
+            use_markdown=self.settings['markdown'])
         return True
 
     def run_shellcheck(self, source_file_path):

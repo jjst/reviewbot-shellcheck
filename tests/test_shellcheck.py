@@ -15,7 +15,6 @@ class TestViolation(object):
             text='Double quote to prevent globbing and word splitting.',
             rule='SC2086')
 
-
     def test_url(self):
         assert_equals(
             self.violation.url,
@@ -158,4 +157,3 @@ class TestShellCheckTool(object):
             violation.line,
             1,
             issue=False)
-
