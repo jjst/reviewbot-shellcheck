@@ -40,6 +40,6 @@ Configuration
 You can access reviewbot-shellcheck's configuration options by clicking on the tool name under the **Review bot tools**
 page. The following configuration options are available:
 
-* **Enable Markdown**: if enabled then PMD will post its comments using [rich
+* **Enable Markdown**: if enabled then reviewbot-shellcheck will post its comments using [rich
   text](https://www.reviewboard.org/docs/manual/2.0/users/markdown/). Note that this is an experimental feature that
   needs a [custom version of ReviewBot](https://github.com/jjst/ReviewBot/tree/markdown-support) with Markdown support.
